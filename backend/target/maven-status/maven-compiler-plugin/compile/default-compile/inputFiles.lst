@@ -1,0 +1,7 @@
+/Users/afrah/Desktop/The Hot Seat/backend/src/main/java/com/example/ticketingsystem/cli/SimulationCLI.java
+/Users/afrah/Desktop/The Hot Seat/backend/src/main/java/com/example/ticketingsystem/controller/SimulationController.java
+/Users/afrah/Desktop/The Hot Seat/backend/src/main/java/com/example/ticketingsystem/entity/TicketPool.java
+/Users/afrah/Desktop/The Hot Seat/backend/src/main/java/com/example/ticketingsystem/service/SimulationService.java
+/Users/afrah/Desktop/The Hot Seat/backend/src/main/java/com/example/ticketingsystem/springboot/TicketingSystemApplication.java
+/Users/afrah/Desktop/The Hot Seat/backend/src/main/java/com/example/ticketingsystem/worker/CustomerWorker.java
+/Users/afrah/Desktop/The Hot Seat/backend/src/main/java/com/example/ticketingsystem/worker/VendorWorker.java

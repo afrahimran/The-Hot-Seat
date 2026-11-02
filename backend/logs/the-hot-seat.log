@@ -1,0 +1,39 @@
+2026-11-03T02:38:37.953+05:30  INFO 45594 --- [the-hot-seat] [main] c.e.t.s.TicketingSystemApplication       : Starting TicketingSystemApplication using Java 23.0.1 with PID 45594 (/Users/afrah/Desktop/The Hot Seat/backend/target/classes started by afrah in /Users/afrah/Desktop/The Hot Seat/backend)
+2026-11-03T02:38:37.954+05:30  INFO 45594 --- [the-hot-seat] [main] c.e.t.s.TicketingSystemApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T02:38:38.347+05:30  INFO 45594 --- [the-hot-seat] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-03T02:38:38.358+05:30  INFO 45594 --- [the-hot-seat] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T02:38:38.358+05:30  INFO 45594 --- [the-hot-seat] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2026-11-03T02:38:38.393+05:30  INFO 45594 --- [the-hot-seat] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-03T02:38:38.394+05:30  INFO 45594 --- [the-hot-seat] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 407 ms
+2026-11-03T02:38:38.596+05:30  INFO 45594 --- [the-hot-seat] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-03T02:38:38.607+05:30  INFO 45594 --- [the-hot-seat] [main] c.e.t.s.TicketingSystemApplication       : Started TicketingSystemApplication in 0.851 seconds (process running for 1.006)
+2026-11-03T02:39:11.544+05:30  INFO 45594 --- [the-hot-seat] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-03T02:39:11.545+05:30  INFO 45594 --- [the-hot-seat] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-03T02:39:11.546+05:30  INFO 45594 --- [the-hot-seat] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-03T02:39:15.068+05:30  INFO 45594 --- [the-hot-seat] [http-nio-8080-exec-9] c.e.t.service.SimulationService          : Configured simulation
+2026-11-03T02:39:15.892+05:30  INFO 45594 --- [the-hot-seat] [http-nio-8080-exec-1] c.e.t.service.SimulationService          : Simulation started
+2026-11-03T02:39:15.893+05:30  INFO 45594 --- [the-hot-seat] [pool-1-thread-2] c.e.t.service.SimulationService          : Vendor 2 released ticket #1
+2026-11-03T02:39:15.893+05:30  INFO 45594 --- [the-hot-seat] [pool-1-thread-1] c.e.t.service.SimulationService          : Vendor 1 released ticket #2
+2026-11-03T02:39:16.396+05:30  INFO 45594 --- [the-hot-seat] [pool-1-thread-2] c.e.t.service.SimulationService          : Vendor 2 released ticket #3
+2026-11-03T02:39:16.398+05:30  INFO 45594 --- [the-hot-seat] [pool-1-thread-1] c.e.t.service.SimulationService          : Vendor 1 released ticket #4
+2026-11-03T02:39:16.695+05:30  INFO 45594 --- [the-hot-seat] [pool-1-thread-4] c.e.t.service.SimulationService          : Customer 2 purchased a ticket
+2026-11-03T02:39:16.697+05:30  INFO 45594 --- [the-hot-seat] [pool-1-thread-3] c.e.t.service.SimulationService          : Customer 1 purchased a ticket
+2026-11-03T02:39:16.698+05:30  INFO 45594 --- [the-hot-seat] [pool-1-thread-5] c.e.t.service.SimulationService          : Customer 3 purchased a ticket
+2026-11-03T02:39:16.901+05:30  INFO 45594 --- [the-hot-seat] [pool-1-thread-2] c.e.t.service.SimulationService          : Vendor 2 released ticket #5
+2026-11-03T02:39:16.902+05:30  INFO 45594 --- [the-hot-seat] [pool-1-thread-1] c.e.t.service.SimulationService          : Vendor 1 released ticket #6
+2026-11-03T02:39:16.960+05:30  INFO 45594 --- [the-hot-seat] [http-nio-8080-exec-5] c.e.t.service.SimulationService          : Simulation stopped
+2026-11-03T02:39:18.115+05:30  INFO 45594 --- [the-hot-seat] [http-nio-8080-exec-7] c.e.t.service.SimulationService          : Simulation started
+2026-11-03T02:39:18.116+05:30  INFO 45594 --- [the-hot-seat] [pool-2-thread-5] c.e.t.service.SimulationService          : Customer 3 purchased a ticket
+2026-11-03T02:39:18.116+05:30  INFO 45594 --- [the-hot-seat] [pool-2-thread-4] c.e.t.service.SimulationService          : Customer 2 purchased a ticket
+2026-11-03T02:39:18.116+05:30  INFO 45594 --- [the-hot-seat] [pool-2-thread-3] c.e.t.service.SimulationService          : Customer 1 purchased a ticket
+2026-11-03T02:39:18.117+05:30  INFO 45594 --- [the-hot-seat] [pool-2-thread-2] c.e.t.service.SimulationService          : Vendor 2 released ticket #7
+2026-11-03T02:39:18.117+05:30  INFO 45594 --- [the-hot-seat] [pool-2-thread-1] c.e.t.service.SimulationService          : Vendor 1 released ticket #8
+2026-11-03T02:39:18.619+05:30  INFO 45594 --- [the-hot-seat] [pool-2-thread-2] c.e.t.service.SimulationService          : Vendor 2 released ticket #9
+2026-11-03T02:39:18.619+05:30  INFO 45594 --- [the-hot-seat] [pool-2-thread-1] c.e.t.service.SimulationService          : Vendor 1 released ticket #10
+2026-11-03T02:39:18.921+05:30  INFO 45594 --- [the-hot-seat] [pool-2-thread-4] c.e.t.service.SimulationService          : Customer 2 purchased a ticket
+2026-11-03T02:39:18.922+05:30  INFO 45594 --- [the-hot-seat] [pool-2-thread-3] c.e.t.service.SimulationService          : Customer 1 purchased a ticket
+2026-11-03T02:39:18.923+05:30  INFO 45594 --- [the-hot-seat] [pool-2-thread-5] c.e.t.service.SimulationService          : Customer 3 purchased a ticket
+2026-11-03T02:39:18.999+05:30  INFO 45594 --- [the-hot-seat] [http-nio-8080-exec-1] c.e.t.service.SimulationService          : Simulation stopped
+2026-11-03T02:39:19.781+05:30  INFO 45594 --- [the-hot-seat] [http-nio-8080-exec-3] c.e.t.service.SimulationService          : Simulation reset
+2026-11-03T02:39:28.121+05:30  INFO 45594 --- [the-hot-seat] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T02:39:28.145+05:30  INFO 45594 --- [the-hot-seat] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
