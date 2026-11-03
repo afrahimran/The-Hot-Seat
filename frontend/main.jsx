@@ -1,5 +1,8 @@
 import React,{useEffect,useState} from 'react';import{createRoot}from'react-dom/client';import './style.css';
-const API_BASE_URL = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+const API_BASE_URL = (
+  import.meta.env.VITE_API_URL ||
+  "https://the-hot-seat-api.onrender.com"
+).replace(/\/$/, "");
 const defaults={totalTickets:100,ticketReleaseRate:500,customerRetrievalRate:800,maxTicketCapacity:100,vendors:2,customers:3};
 function App(){const[config,setConfig]=useState(defaults),[status,setStatus]=useState(null),[error,setError]=useState(''),[busy,setBusy]=useState(false);
 async function request(path,body){setBusy(true);try{const res=await fetch(`${API_BASE_URL}/api/${path}`,{method:body===undefined&&path==='status'?'GET':'POST',headers:{'Content-Type':'application/json'},...(body!==undefined?{body:JSON.stringify(body)}:{})});const data=await res.json();if(!res.ok)throw Error(data.error||'Request failed');setStatus(data);setError('');return data;}catch(e){setError(e.message);}finally{setBusy(false);}}
