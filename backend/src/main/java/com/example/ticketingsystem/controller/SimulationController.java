@@ -3,7 +3,7 @@ import org.springframework.web.bind.annotation.*;
 import com.example.ticketingsystem.service.SimulationService;
 import org.springframework.http.HttpStatus;
 
-@RestController @RequestMapping("/api") @CrossOrigin(origins="http://localhost:5173")
+@RestController @RequestMapping("/api") @CrossOrigin(origins={"http://localhost:5173", "https://ths-tau-ashen.vercel.app"})
 public class SimulationController {
  private final SimulationService service;
  public SimulationController(SimulationService service) {this.service=service;}
